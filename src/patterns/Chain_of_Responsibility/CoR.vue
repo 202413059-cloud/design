@@ -1,10 +1,14 @@
 //저녁 메뉴 추천기 vue 파일
 // CoR.vue 맨 위 부분
+import { ref } from 'vue'
 import {
-  OrderHandler,
+  KoreanHandler,
+  SpicyHandler,
+  DietHandler,
   DeliveryHandler,
   DefaultHandler
-} from "./CoR";
+} from './CoR'   // ← 여기 수정!!
+
 
 <template>
   <div class="container">

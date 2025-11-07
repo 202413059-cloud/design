@@ -7,7 +7,7 @@ import {
   DietHandler,
   DeliveryHandler,
   DefaultHandler
-} from './CoR'   // ← 여기 수정!!
+} from './CoR'  
 
 
 <template>

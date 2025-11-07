@@ -6,7 +6,6 @@ import {
   DefaultHandler
 } from "./CoR";
 
-
 <template>
   <div class="container">
     <h2>Chain of Responsibility: 저녁 메뉴 추천기 🍽️</h2>

@@ -26,4 +26,26 @@ const toggleMsg = () => {
   border: 2px dashed #42b883;
   border-radius: 10px;
   padding: 30px;
-  margin: 20px auto
+  margin: 20px auto;
+}
+
+button {
+  background-color: #42b883;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #369c6e;
+}
+
+.msg {
+  margin-top: 15px;
+  color: #2c3e50;
+  font-weight: bold;
+}
+</style>

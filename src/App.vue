@@ -1,20 +1,20 @@
-<template>
-  <h1>✅ Vue 3 연결 성공!</h1>
-  <p>이 문장이 화면에 보이면 App.vue 수정이 반영된 거예요.</p>
-</template>
-
 <script setup lang="ts">
-// 아무 코드 없어도 됩니다.
+import HelloWorld from './components/HelloWorld.vue'
+import TheWelcome from './components/TheWelcome.vue'
+import WelcomeItem from './components/WelcomeItem.vue'
 </script>
+
+<template>
+  <main style="text-align: center; padding: 50px">
+    <h1>🌿 Design Patterns 테스트 화면</h1>
+    <HelloWorld msg="컴포넌트 연결 확인 중" />
+    <TheWelcome />
+    <WelcomeItem />
+  </main>
+</template>
 
 <style scoped>
 h1 {
   color: #42b883;
-  text-align: center;
-  margin-top: 100px;
-}
-p {
-  text-align: center;
-  font-size: 18px;
 }
 </style>

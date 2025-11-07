@@ -1,5 +1,5 @@
 //랜덤 성경 말씀 뽑기
-import { BibleVerseFacade } from "./Facade";
+import { BibleVerseFacade } from './Facade';
 
 <template>
   <div class="container">

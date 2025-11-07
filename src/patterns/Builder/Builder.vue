@@ -1,4 +1,5 @@
 //c->c++변환 코드 vue 파일
+import { CToCppBuilder, CodeDirector } from './Builder'
 <template>
   <div class="container">
     <h2>Builder Pattern: C → C++ Converter</h2>

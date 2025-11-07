@@ -1,41 +1,20 @@
-<script setup lang="ts">
-defineProps<{
-  msg: string
-}>()
-</script>
-
 <template>
-  <div class="greetings">
-    <h1 class="green">{{ msg }}</h1>
-    <h3>
-      You’ve successfully created a project with
-      <a href="https://vite.dev/" target="_blank" rel="noopener">Vite</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
-    </h3>
+  <div class="hello">
+    <h1>✅ 이제 진짜 내 코드가 뜬다!</h1>
+    <p>이 컴포넌트는 기존 HelloWorld.vue를 수정한 거야.</p>
   </div>
 </template>
 
+<script setup lang="ts">
+// 아무 코드 없어도 됩니다.
+</script>
+
 <style scoped>
-h1 {
-  font-weight: 500;
-  font-size: 2.6rem;
-  position: relative;
-  top: -10px;
-}
-
-h3 {
-  font-size: 1.2rem;
-}
-
-.greetings h1,
-.greetings h3 {
+.hello {
   text-align: center;
+  margin-top: 100px;
 }
-
-@media (min-width: 1024px) {
-  .greetings h1,
-  .greetings h3 {
-    text-align: left;
-  }
+h1 {
+  color: #42b883;
 }
 </style>

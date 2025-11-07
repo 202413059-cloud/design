@@ -1,4 +1,6 @@
 //랜덤 성경 말씀 뽑기
+import { BibleVerseFacade } from "./Facade";
+
 <template>
   <div class="container">
     <h2>Facade Pattern: 랜덤 성경 말씀 뽑기 ✨</h2>

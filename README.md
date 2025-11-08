@@ -1,48 +1,36 @@
-# design-patterns
+디자인 패턴 실습 보고서
 
-This template should help get you started developing with Vue 3 in Vite.
 
-## Recommended IDE Setup
+번호 | 패턴명 | 파일명 | 주요 내용
+-----|--------|--------|---------
+1 | 싱글톤 (Singleton) | Singleton.ts | 인스턴스를 하나만 생성하고 전역적으로 공유
+2 | 팩토리 메서드 (Factory Method) | Factory.ts | 객체 생성 로직을 하위 클래스에 위임
+3 | 어댑터 (Adapter) | Adapter.ts | 서로 다른 인터페이스를 변환하여 연결
+4 | 데코레이터 (Decorator) | Decorator.ts | 기존 객체에 동적으로 기능을 추가
+5 | 옵저버 (Observer) | Observer.ts | 주체의 상태 변화를 여러 객체에 통보
+6 | 비지터 (Visitor) | Visitor.ts | 데이터 구조와 연산을 분리하여 확장 용이
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+실행 결과
 
-## Recommended Browser Setup
+모든 예제는 다음 명령으로 실행하였다.
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+npx ts-node 파일명.ts
 
-## Type Support for `.vue` Imports in TS
+예시 실행 결과는 images 폴더에 저장하였다.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+패턴 | 실행 명령 | 결과 이미지
+------|-------------|-------------
+Singleton | npx ts-node Singleton.ts | images/singleton.png
+Factory | npx ts-node Factory.ts | images/factory.png
+Adapter | npx ts-node Adapter.ts | images/adapter.png
+Decorator | npx ts-node Decorator.ts | images/decorator.png
+Observer | npx ts-node Observer.ts | images/observer.png
+Visitor | npx ts-node Visitor.ts | images/visitor.png
 
-## Customize configuration
+ 디자인 패턴 세 가지 요약
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+1) Builder: c -> cpp
 
-## Project Setup
+2) Facade: 랜덤 성경 말씀 뽑기
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+3) Chain of Responsibility: 저녁 메뉴 추천(조건에 따라)

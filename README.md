@@ -27,6 +27,28 @@ Decorator | npx ts-node Decorator.ts | src/patterns/images/Decorator.png
 Observer | npx ts-node Observer.ts | src/patterns/images/Observer.png
 Visitor | npx ts-node Visitor.ts | src/patterns/images/Visitor.png
 
+
+실행 결과 캡처는 아래와 같다.
+
+### Singleton
+![Singleton 실행 결과](src/patterns/images/Singleton.png)
+
+### Factory
+![Factory 실행 결과](src/patterns/images/Factory.png)
+
+### Adapter
+![Adapter 실행 결과](src/patterns/images/Adapter.png)
+
+### Decorator
+![Decorator 실행 결과](src/patterns/images/Decorator.png)
+
+### Observer
+![Observer 실행 결과](src/patterns/images/Observer.png)
+
+### Visitor
+![Visitor 실행 결과](src/patterns/images/Visitor.png)
+
+
  디자인 패턴 세 가지 요약
 
 1) Builder: c -> cpp

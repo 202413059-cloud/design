@@ -1,5 +1,3 @@
-// 저녁메뉴 추천해주기 ts 파일
-
 /**
  * 추상 Handler 클래스
  * 다음 Handler로 요청을 넘길 수 있는 공통 구조
@@ -47,7 +45,7 @@ export class DeliveryHandler extends DinnerHandler {
 }
 
 export class DefaultHandler extends DinnerHandler {
-  recommend(): string {
+  recommend(condition: string): string {   // ✅ 매개변수 추가
     return "🍱 아무거나 괜찮다면 김치볶음밥 어때요?"
   }
 }

@@ -1,5 +1,3 @@
-//c->c++변환 코드 vue 파일
-import { CToCppBuilder, CodeDirector } from './Builder'
 <template>
   <div class="container">
     <h2>Builder Pattern: C → C++ Converter</h2>
@@ -14,7 +12,7 @@ import { CToCppBuilder, CodeDirector } from './Builder'
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import { CToCppBuilder, CodeDirector } from './CToCppBuilder'
+import { CToCppBuilder, CodeDirector } from './CToCppBuilder'   <!-- ✅ 이거만 남기기 -->
 
 const result = ref('')
 

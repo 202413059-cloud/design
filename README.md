@@ -20,12 +20,12 @@ npx ts-node 파일명.ts
 
 패턴 | 실행 명령 | 결과 이미지
 ------|-------------|-------------
-Singleton | npx ts-node Singleton.ts | src/patterns/images/singleton.png
-Factory | npx ts-node Factory.ts | src/patterns/images/factory.png
-Adapter | npx ts-node Adapter.ts | src/patterns/images/adapter.png
-Decorator | npx ts-node Decorator.ts | src/patterns/images/decorator.png
-Observer | npx ts-node Observer.ts | src/patterns/images/observer.png
-Visitor | npx ts-node Visitor.ts | src/patterns/images/visitor.png
+Singleton | npx ts-node Singleton.ts | src/patterns/images/Singleton.png
+Factory | npx ts-node Factory.ts | src/patterns/images/Factory.png
+Adapter | npx ts-node Adapter.ts | src/patterns/images/Adapter.png
+Decorator | npx ts-node Decorator.ts | src/patterns/images/Decorator.png
+Observer | npx ts-node Observer.ts | src/patterns/images/Observer.png
+Visitor | npx ts-node Visitor.ts | src/patterns/images/Visitor.png
 
  디자인 패턴 세 가지 요약
 

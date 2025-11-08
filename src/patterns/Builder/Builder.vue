@@ -12,7 +12,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import { CToCppBuilder, CodeDirector } from './Builder'   <!-- ✅ 여기 중요! -->
+import { CToCppBuilder, CodeDirector } from './Builder'  
 
 const result = ref('')
 
